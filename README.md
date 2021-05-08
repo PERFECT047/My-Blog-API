@@ -20,9 +20,13 @@ GET - indivisual content(or indivisual post)
    Run the following commands-
    
     -npm init
+    
     -npm install --save express
+    
     -npm install --save multer
+    
     -npm install -g nodemon
+    
    
 3. Make sure the API content is unchanged if changed update address in app.js
 4. In './api/models/Post.js' contains the Post class usend in API
