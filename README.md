@@ -16,11 +16,19 @@ GET - indivisual content(or indivisual post)
 
 **To Get It Working On Your System**
 1. Make the api go live (by default it will be on port 3000)
-2. Make sure the API content is unchanged if changed update address in app.js
-3. In './api/models/Post.js' contains the Post class usend in API
-4. Data.json is used for storing Data.
-5. ./Uploads contains all image files to be used for(if changed make sure to rename properly or update in DB at post-image section)
-6. example storgage form in Data.json 
+   
+   Run the following commands-
+   
+    -npm init
+    -npm install --save express
+    -npm install --save multer
+    -npm install -g nodemon
+   
+3. Make sure the API content is unchanged if changed update address in app.js
+4. In './api/models/Post.js' contains the Post class usend in API
+5. Data.json is used for storing Data.
+6. ./Uploads contains all image files to be used for(if changed make sure to rename properly or update in DB at post-image section)
+7. example storgage form in Data.json 
 
 {
 
